@@ -2,15 +2,8 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.GraphicalViews.Options;
+package genericGraphicalComponents;
 
-import View.Events.CustomSliderEvent;
-import View.Events.CustomTextFieldEvent;
-import View.Events.ObservationEvent;
-import View.Events.OptionLineEvent;
-import View.Exceptions.MinMaxValueException;
-import View.GraphicalViews.Observable;
-import View.GraphicalViews.Observer;
 import java.awt.FlowLayout;
 import java.util.LinkedList;
 import javax.swing.JLabel;

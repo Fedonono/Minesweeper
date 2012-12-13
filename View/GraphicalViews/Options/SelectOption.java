@@ -6,8 +6,8 @@ package View.GraphicalViews.Options;
 
 import Model.Options.GameDifficulty;
 import View.Events.SelectOptionEvent;
-import View.GraphicalViews.Observable;
-import View.GraphicalViews.Observer;
+import genericGraphicalComponents.Observable;
+import genericGraphicalComponents.Observer;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;

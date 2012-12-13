@@ -2,24 +2,22 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.Events;
-
-import View.GraphicalViews.Options.CustomTextField;
+package genericGraphicalComponents;
 
 /**
  *
  * @author simonneau
  */
-public class CustomTextFieldEvent extends ObservationEvent{
-
-    private String value;
+public class CustomSliderEvent extends ObservationEvent {
+    
+    private int value;
     
     /**
      *
      * @param source
      * @param value
      */
-    public CustomTextFieldEvent(CustomTextField source, String value) {
+    public CustomSliderEvent(CustomSlider source, int value){
         super(source);
         this.value = value;
     }
@@ -28,7 +26,7 @@ public class CustomTextFieldEvent extends ObservationEvent{
      *
      * @return
      */
-    public String getValue(){
+    public int getValue(){
         return this.value;
     }
     

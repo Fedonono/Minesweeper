@@ -2,24 +2,22 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.Events;
-
-import View.GraphicalViews.Options.CustomSlider;
+package genericGraphicalComponents;
 
 /**
  *
  * @author simonneau
  */
-public class CustomSliderEvent extends ObservationEvent {
+public class OptionLineEvent extends ObservationEvent{
     
-    private int value;
+    int value;
     
     /**
      *
      * @param source
      * @param value
      */
-    public CustomSliderEvent(CustomSlider source, int value){
+    public OptionLineEvent(CustomOptionLine source, int value){
         super(source);
         this.value = value;
     }
@@ -31,5 +29,4 @@ public class CustomSliderEvent extends ObservationEvent {
     public int getValue(){
         return this.value;
     }
-    
 }

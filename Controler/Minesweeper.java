@@ -1,3 +1,7 @@
+/*
+ * Minesweeper Project
+ * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
+ */
 package Controler;
 
 import Controler.Exceptions.AlreadyInstanciedApplet;

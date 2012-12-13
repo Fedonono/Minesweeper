@@ -2,12 +2,8 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.GraphicalViews.Options;
+package genericGraphicalComponents;
 
-import View.Events.CustomTextFieldEvent;
-import View.Events.ObservationEvent;
-import View.GraphicalViews.Observable;
-import View.GraphicalViews.Observer;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;

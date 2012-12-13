@@ -2,24 +2,22 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.Events;
-
-import View.GraphicalViews.Options.CustomOptionLine;
+package genericGraphicalComponents;
 
 /**
  *
  * @author simonneau
  */
-public class OptionLineEvent extends ObservationEvent{
-    
-    int value;
+public class CustomTextFieldEvent extends ObservationEvent{
+
+    private String value;
     
     /**
      *
      * @param source
      * @param value
      */
-    public OptionLineEvent(CustomOptionLine source, int value){
+    public CustomTextFieldEvent(CustomTextField source, String value) {
         super(source);
         this.value = value;
     }
@@ -28,7 +26,8 @@ public class OptionLineEvent extends ObservationEvent{
      *
      * @return
      */
-    public int getValue(){
+    public String getValue(){
         return this.value;
     }
+    
 }

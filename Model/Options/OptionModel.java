@@ -12,54 +12,17 @@ import Model.Model;
  */
 public abstract class OptionModel extends Model {
 
-    /**
-     *
-     */
     public static final int DEFAULT_WIDTH = 19;
-    /**
-     *
-     */
     public static final int DEFAULT_HEIGHT = 9;
-    /**
-     *
-     */
     public static final double DEFAULT_BOMB_PERCENTAGE = 44.5;
-    /**
-     *
-     */
     public static final int MAX_WIDTH = 30;
-    /**
-     *
-     */
     public static final int MAX_HEIGHT = 24;
-    /**
-     *
-     */
     public static final double MAX_BOMB_PERCENTAGE = 85;
-    /**
-     *
-     */
     public static final int MIN_WIDTH = 9;
-    /**
-     *
-     */
     public static final int MIN_HEIGHT = 9;
-    /**
-     *
-     */
     public static final double MIN_BOMB_PERCENTAGE = 5;
-    /**
-     *
-     */
     public static final boolean DEFAULT_THORIQUE = false;
-    /**
-     *
-     */
     public static final boolean DEFAULT_UNDERWAY = false;
-    /**
-     *
-     */
-    public static final String DEFAULT_MOD = GameDifficulty.CUSTOM.getName();
     
 
     /**

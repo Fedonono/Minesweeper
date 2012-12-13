@@ -2,7 +2,7 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.Exceptions;
+package genericGraphicalComponents;
 
 /**
  *

@@ -4,6 +4,7 @@
  */
 package View.Events;
 
+import genericGraphicalComponents.ObservationEvent;
 import View.GraphicalViews.Options.NewGamePanel;
 
 /**

@@ -20,6 +20,7 @@ import javax.swing.ImageIcon;
  * @author simonneau
  */
 public class CellView extends View {
+
     public static final String HOLLOW_FLAG = "#";
     public static final String MINE_FLAG = "!";
     public static final String TEMP_FLAG = "?";
@@ -32,7 +33,7 @@ public class CellView extends View {
     public static final Icon tempFlagImg = new ImageIcon(Img.TEMPFLAG.getImage());
     
     /**
-     * Font apply to the Neighbors Numbers
+     * Font Style for neighbors counter (yep Comic Sans Ms)
      */
     public static final Font StyleComic = new Font("Comic Sans Ms", Font.BOLD, 20);
 

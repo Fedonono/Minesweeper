@@ -2,9 +2,7 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.Events;
-
-import View.GraphicalViews.ValidateButton;
+package genericGraphicalComponents;
 
 /**
  *

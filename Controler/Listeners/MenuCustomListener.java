@@ -43,8 +43,7 @@ public class MenuCustomListener implements ActionListener, MouseListener {
     @Override
     public void mouseExited(MouseEvent e) {}
 	
-	private void displayOptions() {
+    private void displayOptions() {
         Minesweeper.getInstance().jumToOptions();
-	}
-    
+    }
 }

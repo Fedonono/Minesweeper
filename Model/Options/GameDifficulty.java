@@ -16,12 +16,12 @@ public enum GameDifficulty {
     EXPERT ("Expert","99 mines in a 16x30 field",16,30,20.625,false,KeyEvent.VK_E),
     CHUCK_NORRIS ("ChuckNorris","612 mines in a 24x30 field",24,30,85,false,KeyEvent.VK_H),
     /**
-     *  Custom have to be the last difficulty.
+     * Custom have to be the last difficulty.
      */
     CUSTOM ("Custom","",9,19,44.45,false,KeyEvent.VK_C);
     
     /**
-     * incr/decr if we add/remove a difficulty
+     * incr/decr if we add/remove a difficulty.
      */
     public static final int NB_DIFFICULTY = 5;
     
@@ -95,7 +95,7 @@ public enum GameDifficulty {
     
     /**
      *
-     * @return
+     * @return true if the game difficulty is thorique.
      */
     public boolean isThorique() {
         return thorique;

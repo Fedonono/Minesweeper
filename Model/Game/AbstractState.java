@@ -11,6 +11,7 @@ import java.util.Iterator;
  * @author simonneau
  */
 public abstract class AbstractState {
+    
     public static final Temperament MINE_VALUE = Temperament.explosive;
     public static final Temperament EMPTY_CELL_VALUE = Temperament.pacific;
     public static final Flag HOLLOW_FLAG = Flag.hollow;

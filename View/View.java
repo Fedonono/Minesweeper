@@ -13,12 +13,7 @@ import java.util.LinkedList;
  * @author simonneau
  */
 public abstract class View {
-    /**
-     *
-     */
     protected LinkedList<ViewListener> listeners;
-    
-    
     
     /**
      *

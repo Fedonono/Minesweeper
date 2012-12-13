@@ -29,7 +29,7 @@ public class Rules implements ActionListener {
     private static int MAX_LIFES = 1;
     private int currentLife = Rules.MAX_LIFES;
     /**
-     *
+     * Clock time (in ms)
      */
     public static final int stepCooldown = 1000;
 

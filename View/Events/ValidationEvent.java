@@ -5,6 +5,7 @@
 package View.Events;
 
 import View.GraphicalViews.Options.ValidationPanel;
+import genericGraphicalComponents.ObservationEvent;
 
 /**
  *

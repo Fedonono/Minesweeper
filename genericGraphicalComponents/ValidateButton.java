@@ -2,47 +2,57 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.GraphicalViews.Options;
+package genericGraphicalComponents;
 
-import View.Events.CheckBoxEvent;
-import View.GraphicalViews.Observable;
-import View.GraphicalViews.Observer;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;
-import javax.swing.JCheckBox;
+import javax.swing.JButton;
 
 /**
  *
  * @author simonneau
  */
-public class CustomCheckBox extends JCheckBox implements Observable, ActionListener{
+public class ValidateButton extends JButton implements Observable, ActionListener{
     
-    private LinkedList<Observer> observers = new LinkedList<>();
+    LinkedList<Observer> observers = new LinkedList<>();
     
-    public CustomCheckBox(String text, boolean checked) {
-        super(text, checked);
+    /**
+     *
+     * @param label
+     */
+    public ValidateButton(String label) {
+        super(label);
         this.addActionListener(this);
     }
 
-    
-    
+    /**
+     *
+     * @param o
+     */
     @Override
     public void addObserver(Observer o) {
-        this.observers.add(o);
+        observers.add(o);
     }
 
+    /**
+     *
+     */
     @Override
     public void notifyObserver() {
         for(Observer o : observers){
-            o.reactToChanges(new CheckBoxEvent(this, this.isSelected()));
+            o.reactToChanges(new ValidateButtonEvent(this));
         }
     }
 
+    /**
+     *
+     * @param ae
+     */
     @Override
     public void actionPerformed(ActionEvent ae) {
         this.notifyObserver();
     }
     
+    
 }
-

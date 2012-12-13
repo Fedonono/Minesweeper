@@ -2,9 +2,7 @@
  * Minesweeper Project
  * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
-package View.GraphicalViews;
-
-import View.Events.ObservationEvent;
+package genericGraphicalComponents;
 
 /**
  *

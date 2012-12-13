@@ -30,7 +30,7 @@ public class ScoresModel extends Model implements Serializable {
     private List<Score> bestScores;
     private String askedScores;
     /**
-     * Number of scores/difficulty to keep in best Scores.
+     *
      */
     public static final int NB_SCORES = 5;
     

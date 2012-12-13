@@ -5,6 +5,7 @@
 package View.Events;
 
 import View.GraphicalViews.Options.SelectOption;
+import genericGraphicalComponents.ObservationEvent;
 
 /**
  *
