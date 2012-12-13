@@ -1,6 +1,6 @@
 /*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
+ * Minesweeper Project
+ * by Group3 : Arnaud BABOL, Guillaume Simmoneau
  */
 package Model;
 
