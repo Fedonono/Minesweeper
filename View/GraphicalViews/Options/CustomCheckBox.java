@@ -1,6 +1,6 @@
 /*
  * Minesweeper Project
- * by Group3 : Arnaud BABOL, Guillaume Simmoneau
+ * by Group3 : Arnaud BABOL, Guillaume SIMMONEAU
  */
 package View.GraphicalViews.Options;
 
