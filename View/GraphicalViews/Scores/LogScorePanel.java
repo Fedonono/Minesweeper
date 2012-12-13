@@ -65,10 +65,12 @@ public class LogScorePanel extends JDialog implements Observer{
         WorldModel wm = (WorldModel)event.getSource();
         this.score = wm.getTime();
         this.gd = wm.getGameDifficulty();
-        Minesweeper.getInstance().getScores().LoadScores(gd.getName());
-        
-        if(Minesweeper.getInstance().getScores().isBetterThanLastPerformanceSaved(this.score)){
-            this.setVisible(true);
+        if (this.gd != GameDifficulty.CUSTOM) {
+            Minesweeper.getInstance().getScores().LoadScores(gd.getName());
+
+            if(Minesweeper.getInstance().getScores().isBetterThanLastPerformanceSaved(this.score)){
+                this.setVisible(true);
+            }
         }
     }    
 }
