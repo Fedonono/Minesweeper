@@ -4,9 +4,9 @@
  */
 package View.GraphicalViews;
 
-import View.GraphicalViews.Game.GraphicalGameView;
 import Model.Events.RefreshEvent;
 import View.GraphicalViews.Game.GamePanel;
+import View.GraphicalViews.Game.GraphicalGameView;
 import java.awt.BorderLayout;
 import javax.swing.JPanel;
 

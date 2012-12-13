@@ -36,7 +36,7 @@ public class MenuBar extends JMenuBar {
         menuGame.setMnemonic(KeyEvent.VK_G);
         JMenu menuNew = new JMenu("New");
         menuNew.setMnemonic(KeyEvent.VK_N);
-        // Exigence peu clair sur ce Listener, à modif plus tard
+        // Exigence peu clair sur ce Listener, à modif plus tard maybe
         menuNew.addMouseListener((MouseListener) new MenuCustomListener());
         JMenu menuScore = new JMenu("Scores");
         menuScore.setMnemonic(KeyEvent.VK_S);

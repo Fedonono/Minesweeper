@@ -73,7 +73,7 @@ public class ScorePanel extends View  implements Observer{
         while (itr.hasNext()) {
             Score score = itr.next();
             Calendar date = score.getDate();
-            SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yy");
+            SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yy");
             String strDate = "";
             if (date != null) {
                 strDate = sdf.format(date.getTime());

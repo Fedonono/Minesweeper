@@ -11,24 +11,12 @@ import java.awt.event.KeyEvent;
  * @author nono
  */
 public enum GameDifficulty {
-    /**
-     * Custom have to be the last.
-     */
     BEGINNER ("Beginner","10 mines in a 9x9 field",9,9,12.345,false,KeyEvent.VK_B),
-    /**
-     *
-     */
     INTERMEDIATE ("Intermediate","40 mines in a 16x16 field",16,16,15.62,false,KeyEvent.VK_I),
-    /**
-     *
-     */
     EXPERT ("Expert","99 mines in a 16x30 field",16,30,20.625,false,KeyEvent.VK_E),
-    /**
-     *
-     */
     CHUCK_NORRIS ("ChuckNorris","612 mines in a 24x30 field",24,30,85,false,KeyEvent.VK_H),
     /**
-     *
+     *  Custom have to be the last difficulty.
      */
     CUSTOM ("Custom","",9,19,44.45,false,KeyEvent.VK_C);
     

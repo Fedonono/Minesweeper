@@ -9,21 +9,8 @@ package Model.Game;
  * @author simonneau
  */
 public enum Flag {
-
-    /**
-     *
-     */
-    hollow, 
-    /**
-     *
-     */
+    hollow,
     mine,
-    /**
-     *
-     */
     temp,
-    /**
-     *
-     */
     none;
 }

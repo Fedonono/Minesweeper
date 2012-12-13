@@ -5,8 +5,6 @@
 package View.GraphicalViews;
 
 import View.Events.ValidateButtonEvent;
-import View.GraphicalViews.Observable;
-import View.GraphicalViews.Observer;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.LinkedList;

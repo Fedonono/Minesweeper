@@ -4,12 +4,12 @@
  */
 package View.GraphicalViews.Options;
 
-import View.GraphicalViews.ValidateButton;
 import View.Events.ObservationEvent;
 import View.Events.ValidateButtonEvent;
 import View.Events.ValidationEvent;
 import View.GraphicalViews.Observable;
 import View.GraphicalViews.Observer;
+import View.GraphicalViews.ValidateButton;
 import java.awt.FlowLayout;
 import java.util.LinkedList;
 import javax.swing.JPanel;
