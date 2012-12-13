@@ -10,14 +10,11 @@ import Model.Model;
 import View.View;
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.InputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-import java.net.URL;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -33,7 +30,7 @@ public class ScoresModel extends Model implements Serializable {
     private List<Score> bestScores;
     private String askedScores;
     /**
-     *
+     * Number of scores/difficulty to keep in best Scores.
      */
     public static final int NB_SCORES = 5;
     
