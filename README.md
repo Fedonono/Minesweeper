@@ -16,4 +16,4 @@ Demo
 
   [Java]: http://www.oracle.com/fr/technologies/java/overview/index.html
   [Netbeans]: http://fr.netbeans.org/
-  [demo]: http://babol.me/works/minesweeper/minesweeper.jar
+  [demo]: http://minesweeper.babol.me/minesweeper.jar
